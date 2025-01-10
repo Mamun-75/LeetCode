@@ -1,0 +1,6 @@
+class Solution(object):
+    def majorityElement(self, a):
+        a.sort()
+        n = int(round((len(a)/2)))
+        return(a[n])
+        
