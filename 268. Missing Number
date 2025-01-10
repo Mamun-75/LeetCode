@@ -1,0 +1,7 @@
+class Solution(object):
+    def missingNumber(self, a):
+        n = len(a)
+        actualsum = int(sum(a))
+        totalsum = int(n*(n+1)/2)
+        missing = totalsum-actualsum
+        return(missing)
