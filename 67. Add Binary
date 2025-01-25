@@ -1,0 +1,6 @@
+class Solution(object):
+    def addBinary(self, a, b):
+        ca = int(a,2)
+        cb = int(b,2)
+        d = bin(ca+cb)[2:]
+        return d
